@@ -14,7 +14,6 @@
 <fildset>
     <legend>Login</legend>
     <form action="AccountController" method="post" >
-        ${error}
         <table cellpadding="2" cellspacing="2">
             <tr>
                 <td>Username</td>
