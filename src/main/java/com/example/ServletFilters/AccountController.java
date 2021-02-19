@@ -90,6 +90,7 @@ public class AccountController extends HttpServlet {
                 request.setAttribute("error", "Account Invalid");
                 request.getRequestDispatcher("login.jsp").forward(request,response);
             }
+
         }else {
 
         }
